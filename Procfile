@@ -1,1 +1,1 @@
-web: python gamelib.py
+web: waitress-serve --listen=0.0.0.0:33507 main:app
